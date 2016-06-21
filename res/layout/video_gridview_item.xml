@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <ImageView
+        android:id="@+id/iv_video_cover"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_below="@id/divider"
+        android:scaleType="fitXY"
+        android:src="@drawable/hannibal" />
+
+    <TextView
+        android:id="@+id/tv_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/iv_video_cover"
+        android:layout_marginBottom="1dp"
+        android:background="#77454545"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:text="视频标题"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_video_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_video_cover"
+        android:layout_marginTop="2dp"
+        android:drawableRight="@drawable/video_more"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:text="视频描述"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_video_playcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_video_desc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="播放次数:512"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13sp" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/tv_video_playcount" />
+
+</RelativeLayout>

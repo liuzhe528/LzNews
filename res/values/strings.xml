@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">快捷新闻</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="action_search">查找</string>
+    <string name="action_add">添加</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+    <string name="no_network">貌似没有网络哟</string>
+    <string name="title_game">谁来做家务</string>
+    <string name="location_failed">定位失败了，请手动选择城市</string>
+    <string name="about_us">开发者是一个安卓学习爱好者，希望通过自己的学习做出能够让大家喜欢的应用，同时也希望大家能够对开发者提出自己的意见！点击意见反馈发送消息，开发者就能收到。谢谢您的使用!</string>
+    <string name="introduce">该应用是一款利用网易新闻接口，结合市面上流行的框架所开发的一款新闻类app，在这里你可以看到你喜欢的新闻！内置一款"谁做家务"小转盘(有内幕哦！想知道的发送邮件到heizizheyeliuzhe@gmail.com我将告诉你)!图片新闻可以通过手指上下滑动进行图片切换哦！</string>
+    <string name="version">当前版本为1.0版，如有bug请大家在用户反馈中提出，我们将尽快修复。</string>
+
+</resources>
